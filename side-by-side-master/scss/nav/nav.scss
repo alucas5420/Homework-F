@@ -1,0 +1,17 @@
+nav {
+  max-width: $content-width;
+  margin: 0 auto;
+  // background-color: $site-background;
+  min-height: $nav-footer-height;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 2px;
+
+  .links {
+    a {
+      text-decoration: none;
+      margin-left: 20px;
+    }
+  }
+}

@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+#app {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+nav {
+  max-width: 980px;
+  margin: 0 auto;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 2px;
+}
+
+nav .links a {
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+footer {
+  height: 100px;
+  background-color: #79addc;
+}
+footer .footer-content {
+  max-width: 980px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.about {
+  margin-top: 110px;
+  margin-bottom: 180px;
+}
+.about .about-header h1 {
+  margin-bottom: 2px;
+}
+.about .about-header .border-bottom {
+  width: 100px;
+  height: 2px;
+  background-color: #000;
+  margin-bottom: 16px;
+}
+.about .about-client-quotes {
+  margin-top: 107px;
+}
+.about .about-client-quotes .client-box {
+  max-width: 722px;
+  display: flex;
+  position: relative;
+  margin-bottom: 37px;
+}
+.about .about-client-quotes .client-box .client-image {
+  width: 260px;
+  height: 150px;
+  overflow: hidden;
+  margin-right: 21px;
+}
+.about .about-client-quotes .client-box .client-image img {
+  width: 100%;
+}
+.about .about-client-quotes .client-box .client-quote {
+  max-width: 440px;
+  margin-bottom: 20px;
+}
+.about .about-client-quotes .client-box .client-name {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #79addc;
+}
+
+/*# sourceMappingURL=styles.css.map */
